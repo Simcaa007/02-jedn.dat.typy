@@ -26,9 +26,14 @@ namespace _06
             int b = int.Parse(textBox2.Text);
             int c = int.Parse(textBox3.Text);
 
-            if(a != b && b != c && c != a)
+            double objem = 1;
+
+            if (a != b && b != c && c != a)
             {
                 // Kvadr
+
+                objem = a * b * c;
+                MessageBox.Show($"Kvádr má objem: {objem} cm^3 = {objem / 100} m^3 {objem / 10} dm^3 {objem} cm^3");
             }
             else if (a == b && a!= c && b != c)
             {
@@ -37,7 +42,6 @@ namespace _06
             else if (a == b && b == c)
             {
                 // Krychle
-                int a = 0 ;
             }
         }
     }
