@@ -21,7 +21,7 @@ namespace @enum
         {
             Pondeli,
             Utery,
-            Streda¨,
+            Streda,
             Ctvrtek,
             Patek,
             Sobota,
