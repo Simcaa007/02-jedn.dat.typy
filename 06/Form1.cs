@@ -37,7 +37,7 @@ namespace _06
             else if (a == b && b == c)
             {
                 // Krychle
-                int a;
+                int a = 0 ;
             }
         }
     }
