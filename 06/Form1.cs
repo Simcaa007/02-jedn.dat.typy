@@ -33,15 +33,19 @@ namespace _06
                 // Kvadr
 
                 objem = a * b * c;
-                MessageBox.Show($"Kvádr má objem: {objem} cm^3 = {objem / 100} m^3 {objem / 10} dm^3 {objem} cm^3");
+                label4.Text = $"Kvádr má objem: {objem} cm^3 = {objem / 100} m^3 {objem / 10} dm^3 {objem} cm^3";
             }
-            else if (a == b && a!= c && b != c)
+            else if (a == b && a!= c)
             {
                 // Pravidelny hranol
+                objem = a * b * c;
+                label4.Text = $"Pravidelny hranol ma objem: {objem} cm^3 = {objem / 100} m^3 {objem / 10} dm^3 {objem} cm^3";
             }
             else if (a == b && b == c)
             {
                 // Krychle
+                objem = a * b * c;
+                label4.Text = $"Krychle ma objem: {objem} cm^3 = {objem / 100} m^3 {objem / 10} dm^3 {objem} cm^3";
             }
         }
     }
