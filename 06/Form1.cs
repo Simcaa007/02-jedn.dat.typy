@@ -26,7 +26,18 @@ namespace _06
             int b = int.Parse(textBox2.Text);
             int c = int.Parse(textBox3.Text);
 
-
+            if(a != b && b != c && c != a)
+            {
+                // Kvadr
+            }
+            else if (a == b && a!= c && b != c)
+            {
+                // Pravidelny hranol
+            }
+            else if (a == b && b == c)
+            {
+                // Krychle
+            }
         }
     }
 }
