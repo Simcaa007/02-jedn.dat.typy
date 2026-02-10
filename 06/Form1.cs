@@ -16,5 +16,17 @@ namespace _06
         {
             InitializeComponent();
         }
+
+        // zjistit podle vstupu a,b,c, zda se jedna o kvadr, pravidelny hranol nebo krychli (tj. pokud je a,b i c stejne, jedna se o krychli)
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox1.Text);
+            int b = int.Parse(textBox2.Text);
+            int c = int.Parse(textBox3.Text);
+
+
+        }
     }
 }
